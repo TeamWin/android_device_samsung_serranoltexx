@@ -1,0 +1,22 @@
+## TWRP device tree for Samsung Galaxy S4 Mini (International LTE)
+## serranolte, serranoltebmc, serranoltektt, serranoltexx
+
+Add to `.repo/local_manifests/serranoltexx.xml`:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="ripee/twrp_android_device_samsung_serranoltexx" path="device/samsung/serranoltexx" remote="github" revision="android-7.1" />
+</manifest>
+```
+
+Then run `repo sync` to check it out.
+
+To build:
+
+```sh
+. build/envsetup.sh
+lunch omni_serranoltexx-eng
+mka recoveryimage
+```
+

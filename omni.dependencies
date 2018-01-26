@@ -1,14 +1,14 @@
 [
 	{
 		"remote":"github",
-    		"repository":"LineageOS/android_kernel_samsung_msm8930-common",
-    		"target_path":"kernel/samsung/msm8930-common",
+		"repository":"LineageOS/android_device_qcom_common",
+		"target_path":"device/qcom/common",
 		"revision":"cm-14.1"
 	},
 	{
 		"remote":"github",
-		"repository":"LineageOS/android_device_qcom_common",
-		"target_path":"device/qcom/common",
+    		"repository":"LineageOS/android_kernel_samsung_msm8930-common",
+    		"target_path":"kernel/samsung/msm8930-common",
 		"revision":"cm-14.1"
 	}
 ]
